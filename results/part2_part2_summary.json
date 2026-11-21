@@ -1,0 +1,84 @@
+﻿{
+    "esm":  {
+                "median_to_crystals":  0.513,
+                "min":  0.473,
+                "max":  0.593,
+                "af_median":  0.257,
+                "lab_median":  0.257,
+                "esm_vs_af":  0.457,
+                "mean_plddt":  94.8,
+                "ser193":  0.64,
+                "correlations":  {
+                                     "esm_uncertainty_vs_bfactor":  {
+                                                                        "rho":  0.56,
+                                                                        "lo":  0.46,
+                                                                        "hi":  0.64
+                                                                    },
+                                     "esm_uncertainty_vs_rmsf":  {
+                                                                     "rho":  0.45,
+                                                                     "lo":  0.35,
+                                                                     "hi":  0.54
+                                                                 }
+                                 }
+            },
+    "fast":  {
+                 "crystal_vs_wt_median":  0.255,
+                 "crystal_vs_wt_min":  0.142,
+                 "crystal_vs_wt_max":  0.341,
+                 "esm_fast_vs_wt":  0.091,
+                 "sites":  [
+                               {
+                                   "pos":  121,
+                                   "wt":  "S",
+                                   "mutated":  true,
+                                   "rmsf":  0.178,
+                                   "real_change":  0.081,
+                                   "real_z":  0.45,
+                                   "predicted_change":  0.317
+                               },
+                               {
+                                   "pos":  186,
+                                   "wt":  "D",
+                                   "mutated":  true,
+                                   "rmsf":  0.263,
+                                   "real_change":  0.151,
+                                   "real_z":  0.57,
+                                   "predicted_change":  0.3
+                               },
+                               {
+                                   "pos":  224,
+                                   "wt":  "R",
+                                   "mutated":  true,
+                                   "rmsf":  0.209,
+                                   "real_change":  0.301,
+                                   "real_z":  1.44,
+                                   "predicted_change":  0.089
+                               },
+                               {
+                                   "pos":  233,
+                                   "wt":  "N",
+                                   "mutated":  true,
+                                   "rmsf":  0.187,
+                                   "real_change":  0.317,
+                                   "real_z":  1.69,
+                                   "predicted_change":  0.157
+                               },
+                               {
+                                   "pos":  280,
+                                   "wt":  "R",
+                                   "mutated":  true,
+                                   "rmsf":  0.222,
+                                   "real_change":  0.338,
+                                   "real_z":  1.52,
+                                   "predicted_change":  0.156
+                               }
+                           ],
+                 "pred_vs_real":  {
+                                      "rho":  0.25,
+                                      "lo":  0.13,
+                                      "hi":  0.36
+                                  }
+             },
+    "n_core":  256,
+    "n_chains":  26
+}

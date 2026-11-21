@@ -1,0 +1,15 @@
+﻿{
+    "model_residues":  262,
+    "xray_residues_chainA":  257,
+    "common_residues":  257,
+    "xray_range":  "34-290",
+    "residue_name_mismatch":  "30,31,32,33",
+    "rmsd_all_CA_A":  0.25,
+    "rmsd_plddt90plus_A":  NaN,
+    "n_plddt90plus":  0,
+    "rmsd_plddt_below90_A":  0.25,
+    "n_plddt_below90":  257,
+    "mean_plddt_signal_1_29":  23.6,
+    "mean_plddt_30_290":  6.7,
+    "residues_within_1A":  255
+}
