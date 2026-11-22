@@ -102,7 +102,7 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--rule);font-si
   <p class="eyebrow">Independent mini study · protein structure · November 2026</p>
   <h1>How well does AlphaFold know a plastic-eating enzyme?</h1>
   <p class="lede">PETase, from the bacterium <i>Ideonella sakaiensis</i>, breaks down PET, the plastic in drink bottles. I tested AlphaFold's prediction of its 3D shape against every lab-measured PETase structure I could find, checked whether the AI knows which parts it's unsure about, and ran a blind test on newer relatives of the enzyme.</p>
-  <p class="byline">By Rayyan Niyazi. All data is public. The analysis code is my own (PowerShell and C#).</p>
+  <p class="byline">By Rayyan Niyazi. All data is public. I designed and ran the analysis, and built the code (PowerShell and C#) with the help of AI coding tools.</p>
 
   <section class="abstract" aria-labelledby="abs">
     <h2 id="abs">Summary</h2>
@@ -264,7 +264,7 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--rule);font-si
     <dt>Sequence</dt><dd><a href="https://www.uniprot.org/uniprotkb/A0A0K8P6T7/entry" target="_blank" rel="noopener">UniProt A0A0K8P6T7</a></dd>
     <dt>Prediction</dt><dd><a href="https://alphafold.ebi.ac.uk/entry/A0A0K8P6T7" target="_blank" rel="noopener">AlphaFold DB AF-A0A0K8P6T7-F1</a>, model v6</dd>
     <dt>Lab structures</dt><dd>13 wild-type PETase entries (26 chains) and 11 relatives from the <a href="https://www.rcsb.org" target="_blank" rel="noopener">RCSB Protein Data Bank</a>, all listed in the tables above</dd>
-    <dt>Code</dt><dd>Sequence alignment (Needleman–Wunsch), quaternion superposition (Horn's method), RMSF, TM-score, Spearman correlation with bootstrap intervals. About 400 lines of PowerShell and C#, written for this project. It reruns from scratch with one download script, and is available on request.</dd>
+    <dt>Code</dt><dd>Sequence alignment (Needleman–Wunsch), quaternion superposition (Horn's method), RMSF, TM-score, Spearman correlation with bootstrap intervals. About 400 lines of PowerShell and C#, written for this project with the help of AI coding tools. It reruns from scratch with one download script, and is public at <a href="https://github.com/RayyanNiyazi/petase-alphafold-study" target="_blank" rel="noopener">github.com/RayyanNiyazi/petase-alphafold-study</a>.</dd>
     <dt>Part 2</dt><dd>ESMFold predictions of the mature wild-type and FAST-PETase sequences (residues 30–290) from the public ESM Metagenomic Atlas API, and the FAST-PETase crystal structure <a href="https://www.rcsb.org/structure/7SH6" target="_blank" rel="noopener">PDB 7SH6</a> (1.44 Å).</dd>
     <dt>Revisions</dt><dd>Version 5 corrects the structure set after a self-review: three entries the database marks as unmutated turned out to be engineered proteins and were removed. Every figure and number was recalculated.</dd>
   </dl>
